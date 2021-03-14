@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.practica2.practica3widgetaudio"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:4:5-80
+11-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:4:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:5:5-79
+12-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:5:22-77
+13
+14    <application
+14-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:7:5-35:19
+15        android:allowBackup="true"
+15-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:8:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.3.1] /home/saul/.gradle/caches/transforms-2/files-2.1/8dbd859d1cd89239b42e7382b4fc40d7/core-1.3.1/AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:9:9-43
+19        android:label="@string/app_name"
+19-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:10:9-41
+20        android:requestLegacyExternalStorage="true"
+20-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:14:9-52
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:11:9-54
+22        android:supportsRtl="true"
+22-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:12:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.Practica3WidgetAudio" >
+24-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:13:9-58
+25        <activity android:name="com.practica2.practica3widgetaudio.MainActivity" >
+25-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:16:9-22:20
+25-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:16:19-47
+26            <intent-filter>
+26-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:18:17-69
+27-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:20:17-77
+29-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <receiver android:name="com.practica2.practica3widgetaudio.widget" >
+33-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:24:9-33:20
+33-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:24:19-75
+34            <intent-filter>
+34-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:25:13-28:29
+35                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+35-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:26:17-83
+35-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:26:25-81
+36            </intent-filter>
+37
+38            <meta-data
+38-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:29:13-32:19
+39                android:name="android.appwidget.provider"
+39-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:30:17-58
+40                android:resource="@xml/miwidget" />
+40-->/home/saul/AndroidStudioProjects/Practica3WidgetAudio/app/src/main/AndroidManifest.xml:31:17-49
+41        </receiver>
+42    </application>
+43
+44</manifest>

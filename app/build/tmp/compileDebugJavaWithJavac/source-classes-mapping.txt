@@ -1,0 +1,6 @@
+com/practica2/practica3widgetaudio/MainActivity.java
+ com.practica2.practica3widgetaudio.MainActivity
+com/practica2/practica3widgetaudio/BuildConfig.java
+ com.practica2.practica3widgetaudio.BuildConfig
+com/practica2/practica3widgetaudio/widget.java
+ com.practica2.practica3widgetaudio.widget
